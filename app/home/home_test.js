@@ -8,8 +8,8 @@ describe('nga.home module', function() {
 
     it('should ....', inject(function($controller) {
       //spec body
-      var homeControl = $controller('HomeController');
-      expect(homeControl).toBeDefined();
+      var ThisCtrl = $controller('HomeCtrl');
+      expect(ThisCtrl).toBeDefined();
     }));
 
   });

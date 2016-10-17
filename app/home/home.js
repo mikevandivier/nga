@@ -5,10 +5,10 @@ angular.module('nga.home', ['ngRoute'])
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/home', {
     templateUrl: 'home/home.html',
-    controller: 'HomeController'
+    controller: 'HomeCtrl'
   });
 }])
 
-.controller('HomeController', [function() {
+.controller('HomeCtrl', [function() {
 
 }]);
