@@ -36,6 +36,8 @@ Back-End Integration
 Developer Reference:
   -https://github.com/angular/angular-seed
   -https://bower.io/
+  -https://github.com/mbostock-bower/d3-bower
+  -https://github.com/twbs/bootstrap
 
 TODO:
   -Readme to Markdown
