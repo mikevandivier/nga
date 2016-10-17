@@ -44,3 +44,5 @@ TODO:
   -Basic GUIs and functional implementation
   -Better documentation
   -BE, Rally, and HipChat/Slack integrations
+  -Maybe drop Bootstrap and jQuery and use Angular UI Bootstrap instead (https://github.com/angular-ui/bootstrap)
+  -Bootstrap activate nav button on click

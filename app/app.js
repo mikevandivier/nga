@@ -4,8 +4,9 @@
 var nga = angular.module('nga', [
   'ngRoute',
   'nga.home',
-  'nga.view1',
-  'nga.view2',
+  'nga.planning',
+  'nga.status',
+  'nga.itw',
   'nga.version'
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
