@@ -1,5 +1,12 @@
 Nga is the Angular Agile Tool. Use it to facilitate planning, tasking, scrum meetings, and demos.
 
+Prerequisites:
+  - NodeJS
+
+Instructions:
+  - npm start
+  - visit http://localhost:8000/
+
 TOC:
   -Planning
   -Tasking

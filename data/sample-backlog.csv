@@ -1,0 +1,17 @@
+Item #,Short Name,Points,Developer,EOE Days,Notes,Expected Sprint
+itbug1,fix things,,John,,string,2
+itbug2,screen flashes when I sneeze,,,,,
+goal1,better devops,,,,,
+goal2,train newguy,,John,,,
+goal3,use git not svn,,,,string,5
+us1,be better,,,,,
+us2,users can log in,,John,,,
+us3,profile pics,,,,sd abld asd,
+us4,double thumbs down button,,,,,
+us5,users can have two last names,5,Jake,4,,9
+us6,users can sell shirts,,,,,
+uatbug1,icon looks bad,2,Michael,1,,1
+uatbug2,nothing works,,,,,
+uatbug3,last name spelled wrong,,,,,3
+tech1,integrate w new db,,,,,
+tech2,fix sonar violations,,,,,
