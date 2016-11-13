@@ -15,6 +15,7 @@ TOC:
   -Back-End Integration
   -Developer Reference
   -TODO
+  -user guide
 
 Planning
   -Simple plans use Excel.
@@ -53,3 +54,17 @@ TODO:
   -BE, Rally, and HipChat/Slack integrations
   -Maybe drop Bootstrap and jQuery and use Angular UI Bootstrap instead (https://github.com/angular-ui/bootstrap)
   -Bootstrap activate nav button on click
+
+User Guide
+----------
+The order of use is generally:
+1 - Create backlog
+2 - Prioritize items by sprint
+3 - Current sprint availability
+4 - EOE for items until sprint filled
+5 - reprioritize / negotiate w client. Utilize overcapacity ratio to evidence risk.
+6 - WCS during daily scrum; status updates
+7 - Near sprint end or ad hoc "crunch time" use ITW as a strategic micromanaging tool
+8 - Rinse and repeat
+9 - If you have spare time, work on estimating the backlog and/or pulling future items into current sprint
+10- After a few sprints it is useful to begin multi-sprint planning (MSP) and performance analysis.
