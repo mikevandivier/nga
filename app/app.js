@@ -7,8 +7,7 @@ angular.module('nga', [
   'nga.planning',
   'nga.status',
   'nga.itw',
-  'nga.version',
-  'nga.agGrid'
+  'nga.version'
 ]).
 
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
@@ -20,8 +19,6 @@ config(['$locationProvider', '$routeProvider', function($locationProvider, $rout
 
     $scope.isActive = function (sClickedPage) {                                         //ref: http://stackoverflow.com/questions/16199418/how-to-set-bootstrap-navbar-active-class-with-angular-js
       let sRouteLocation = $location.path();
-      console.log(sClickedPage)
-      console.log(sRouteLocation)
       return sRouteLocation.indexOf(sClickedPage) === 1;                                //=== 1 allows home to match /home
     }
 
