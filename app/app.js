@@ -1,7 +1,7 @@
 'use strict';
 
 // Declare app level module which depends on views, and components
-var nga = angular.module('nga', [
+angular.module('nga', [
   'ngRoute',
   'nga.home',
   'nga.planning',
@@ -14,18 +14,18 @@ var nga = angular.module('nga', [
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
   $locationProvider.hashPrefix('!');
   $routeProvider.otherwise({redirectTo: '/home'});
-}]);
+}])
 
-//ref: http://stackoverflow.com/questions/17910986/bootstrap-navbar-with-angularjs
-nga.controller('NavCtrl', 
-['$scope', '$location', function ($scope, $location) {
-    $scope.navClass = function (page) {
-      var currentRoute = $location.path().substring(1) || 'home';
-      return page === currentRoute ? 'active' : '';
-    };
+.controller('NavCtrl', ['$scope', '$location', function ($scope, $location) {           //ref: http://stackoverflow.com/questions/17910986/bootstrap-navbar-with-angularjs
+
+    $scope.isActive = function (sClickedPage) {                                         //ref: http://stackoverflow.com/questions/16199418/how-to-set-bootstrap-navbar-active-class-with-angular-js
+      let sRouteLocation = $location.path();
+      console.log(sClickedPage)
+      console.log(sRouteLocation)
+      return sRouteLocation.indexOf(sClickedPage) === 1;                                //=== 1 allows home to match /home
+    }
 
     $scope.loadContact = function () {
-        alert('You can contact me here: http://www.afterecon.com/user-survey/');
-        //$location.url('/contact');
-    };
-}]);
+      alert('You can contact me here: http://www.afterecon.com/user-survey/')
+    }
+}])
