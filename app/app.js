@@ -7,8 +7,10 @@ var nga = angular.module('nga', [
   'nga.planning',
   'nga.status',
   'nga.itw',
-  'nga.version'
+  'nga.version',
+  'nga.agGrid'
 ]).
+
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
   $locationProvider.hashPrefix('!');
   $routeProvider.otherwise({redirectTo: '/home'});
