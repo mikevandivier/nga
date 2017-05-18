@@ -35,3 +35,7 @@
 .center-block {
   float: none;
 }
+
+[ng-view] {
+  padding: 0 2.5%;
+}
